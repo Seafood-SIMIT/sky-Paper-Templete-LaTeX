@@ -71,8 +71,8 @@
 {
 }
 %表格
-\renewcommand {\thetable} {表\thesection{}.\arabic{table}} 
-\renewcommand {\thefigure} {图\thesection{}.\arabic{figure}}
+\renewcommand {\thetable} {\thesection{}.\arabic{table}} 
+\renewcommand {\thefigure} {\thesection{}.\arabic{figure}}
 
 %参考文献
 \newenvironment{myreference}[1][参考文献]
